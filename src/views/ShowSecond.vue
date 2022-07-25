@@ -5,16 +5,16 @@
     <div class="slideshow">
       <ul class="card">
         <li class="card__item card__item--active">
-          <img src="./assets/images/card-01.svg" alt="" />
+          <img src="@/assets/images/second/card-01.svg" alt="" />
         </li>
         <li class="card__item">
-          <img src="./assets/images/card-01.svg" alt="" />
+          <img src="@/assets/images/second/card-01.svg" alt="" />
         </li>
         <li class="card__item">
-          <img src="./assets/images/card-01.svg" alt="" />
+          <img src="@/assets/images/second/card-01.svg" alt="" />
         </li>
         <li class="card__item">
-          <img src="./assets/images/card-01.svg" alt="" />
+          <img src="@/assets/images/second/card-01.svg" alt="" />
         </li>
       </ul>
       <div class="slideshow__snapper">
@@ -27,12 +27,12 @@
     <ul class="toolbar">
       <li class="toolbar__item">
         <div>
-          <img src="./assets/images/copy-number.svg" alt="" />
+          <img src="@/assets/images/second/copy-number.svg" alt="" />
         </div>
         <div class="toolbar__txt">Copy Card Number</div>
       </li>
       <li class="toolbar__item">
-        <img src="./assets/images/show-cvv.svg" alt="" />
+        <img src="@/assets/images/second/show-cvv.svg" alt="" />
         <div class="toolbar__txt">SHOW CVV</div>
       </li>
     </ul>
@@ -41,7 +41,11 @@
         <h3>Your Money</h3>
         <div class="acct__money">$898,00</div>
       </div>
-      <img src="./assets/images/acct-more.svg" alt="" class="acct__more" />
+      <img
+        src="@/assets/images/second/acct-more.svg"
+        alt=""
+        class="acct__more"
+      />
     </div>
     <div class="analysis">
       <div class="analysis__title">Money Spent</div>
@@ -62,17 +66,17 @@
       </div>
     </div>
     <nav class="navbar">
-      <a class="navbar__item" href="./index.html">
-        <img src="./assets/images/nav-icon-01.svg" alt="" />
+      <a class="navbar__item" href="/">
+        <img src="@/assets/images/second/nav-icon-01.svg" alt="" />
       </a>
-      <a class="navbar__item" href="./second.html">
-        <img src="./assets/images/nav-icon-02.svg" alt="" />
+      <a class="navbar__item" href="/second">
+        <img src="@/assets/images/second/nav-icon-02.svg" alt="" />
       </a>
-      <a class="navbar__item" href="./third.html">
-        <img src="./assets/images/nav-icon-03.svg" alt="" />
+      <a class="navbar__item" href="/third">
+        <img src="@/assets/images/second/nav-icon-03.svg" alt="" />
       </a>
-      <a class="navbar__item" href="./fourth.html">
-        <img src="./assets/images/nav-icon-04.svg" alt="" />
+      <a class="navbar__item" href="/fourth">
+        <img src="@/assets/images/second/nav-icon-04.svg" alt="" />
       </a>
     </nav>
   </div>
@@ -273,6 +277,11 @@ body {
           transparent 0 100%
         );
       mask: radial-gradient(
+        farthest-side,
+        transparent calc(100% - var(--stroke-width)),
+        black calc(100% - var(--stroke-width))
+      );
+      -webkit-mask: radial-gradient(
         farthest-side,
         transparent calc(100% - var(--stroke-width)),
         black calc(100% - var(--stroke-width))

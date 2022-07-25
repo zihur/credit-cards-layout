@@ -85,7 +85,7 @@ onMounted(() => {
     </main>
     <nav class="nav">
       <div class="nav__border-wrap">
-        <div class="nav__icon" >
+        <a class="nav__icon" href="/">
           <img
             src="@/assets/images/nav-icon-01.svg"
             alt=""
@@ -93,8 +93,8 @@ onMounted(() => {
               --nav-icon-reverse: url('/src/assets/images/nav-icon-01-reverse.svg');
             "
           />
-        </div>
-        <div class="nav__icon">
+        </a>
+        <a class="nav__icon" href="/second">
           <img
             src="@/assets/images/nav-icon-02.svg"
             alt=""
@@ -102,8 +102,8 @@ onMounted(() => {
               --nav-icon-reverse: url('/src/assets/images/nav-icon-02-reverse.svg');
             "
           />
-        </div>
-        <div class="nav__icon">
+        </a>
+        <a class="nav__icon" href="/third">
           <img
             src="@/assets/images/nav-icon-03.svg"
             alt=""
@@ -111,8 +111,8 @@ onMounted(() => {
               --nav-icon-reverse: url('/src/assets/images/nav-icon-03-reverse.svg');
             "
           />
-        </div>
-        <div class="nav__icon">
+        </a>
+        <a class="nav__icon" href="/fourth">
           <img
             src="@/assets/images/nav-icon-04.svg"
             alt=""
@@ -120,7 +120,7 @@ onMounted(() => {
               --nav-icon-reverse: url('/src/assets/images/nav-icon-04-reverse.svg');
             "
           />
-        </div>
+        </a>
       </div>
     </nav>
   </div>
