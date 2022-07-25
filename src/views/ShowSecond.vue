@@ -66,16 +66,16 @@
       </div>
     </div>
     <nav class="navbar">
-      <a class="navbar__item" href="/">
+      <a class="navbar__item" href="/credit-cards-layout">
         <img src="@/assets/images/second/nav-icon-01.svg" alt="" />
       </a>
-      <a class="navbar__item" href="/second">
+      <a class="navbar__item" href="/credit-cards-layout#second">
         <img src="@/assets/images/second/nav-icon-02.svg" alt="" />
       </a>
-      <a class="navbar__item" href="/third">
+      <a class="navbar__item" href="/credit-cards-layout#third">
         <img src="@/assets/images/second/nav-icon-03.svg" alt="" />
       </a>
-      <a class="navbar__item" href="/fourth">
+      <a class="navbar__item" href="/credit-cards-layout#fourth">
         <img src="@/assets/images/second/nav-icon-04.svg" alt="" />
       </a>
     </nav>

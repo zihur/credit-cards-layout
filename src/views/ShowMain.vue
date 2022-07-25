@@ -85,39 +85,39 @@ onMounted(() => {
     </main>
     <nav class="nav">
       <div class="nav__border-wrap">
-        <a class="nav__icon" href="/">
+        <a class="nav__icon" href="/credit-cards-layout">
           <img
             src="@/assets/images/nav-icon-01.svg"
             alt=""
             style="
-              --nav-icon-reverse: url('/src/assets/images/nav-icon-01-reverse.svg');
+              --nav-icon-reverse: url('@/assets/images/nav-icon-01-reverse.svg');
             "
           />
         </a>
-        <a class="nav__icon" href="/second">
+        <a class="nav__icon" href="/credit-cards-layout#second">
           <img
             src="@/assets/images/nav-icon-02.svg"
             alt=""
             style="
-              --nav-icon-reverse: url('/src/assets/images/nav-icon-02-reverse.svg');
+              --nav-icon-reverse: url('@/assets/images/nav-icon-02-reverse.svg');
             "
           />
         </a>
-        <a class="nav__icon" href="/third">
+        <a class="nav__icon" href="/credit-cards-layout#third">
           <img
             src="@/assets/images/nav-icon-03.svg"
             alt=""
             style="
-              --nav-icon-reverse: url('/src/assets/images/nav-icon-03-reverse.svg');
+              --nav-icon-reverse: url('@/assets/images/nav-icon-03-reverse.svg');
             "
           />
         </a>
-        <a class="nav__icon" href="/fourth">
+        <a class="nav__icon" href="/credit-cards-layout#fourth">
           <img
             src="@/assets/images/nav-icon-04.svg"
             alt=""
             style="
-              --nav-icon-reverse: url('/src/assets/images/nav-icon-04-reverse.svg');
+              --nav-icon-reverse: url('@/assets/images/nav-icon-04-reverse.svg');
             "
           />
         </a>

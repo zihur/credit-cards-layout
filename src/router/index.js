@@ -1,4 +1,4 @@
-import { createRouter, createWebHistory } from "vue-router";
+import { createRouter, createWebHashHistory, createWebHistory } from "vue-router";
 const routes = [
   { path: "/", name: "home", component: () => import("@/views/ShowMain.vue") },
   { path: "/second", name: "second", component: () => import("@/views/ShowSecond.vue") },
@@ -12,7 +12,8 @@ const routes = [
 ];
 
 const router = createRouter({
-  history: createWebHistory(),
+  // history: createWebHistory(),
+  history: createWebHashHistory(),
   routes,
   linkActiveClass: "router-link-active", // default link active class name
 });
