@@ -90,7 +90,7 @@ onMounted(() => {
             src="@/assets/images/nav-icon-01.svg"
             alt=""
             style="
-              --nav-icon-reverse: url('/src/assets/images/nav-icon-01-reverse.svg');
+              --nav-icon-reverse: url('@/assets/images/nav-icon-01-reverse.svg');
             "
           />
         </a>
@@ -99,7 +99,7 @@ onMounted(() => {
             src="@/assets/images/nav-icon-02.svg"
             alt=""
             style="
-              --nav-icon-reverse: url('/src/assets/images/nav-icon-02-reverse.svg');
+              --nav-icon-reverse: url('@/assets/images/nav-icon-02-reverse.svg');
             "
           />
         </a>
@@ -108,7 +108,7 @@ onMounted(() => {
             src="@/assets/images/nav-icon-03.svg"
             alt=""
             style="
-              --nav-icon-reverse: url('/src/assets/images/nav-icon-03-reverse.svg');
+              --nav-icon-reverse: url('@/assets/images/nav-icon-03-reverse.svg');
             "
           />
         </a>
@@ -117,7 +117,7 @@ onMounted(() => {
             src="@/assets/images/nav-icon-04.svg"
             alt=""
             style="
-              --nav-icon-reverse: url('/src/assets/images/nav-icon-04-reverse.svg');
+              --nav-icon-reverse: url('@/assets/images/nav-icon-04-reverse.svg');
             "
           />
         </a>
