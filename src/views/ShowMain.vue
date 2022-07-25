@@ -299,7 +299,8 @@ header {
       box-shadow: 0 0 2px 2px #614ad3, inset 0 0 2px 2px #614ad3;
       background: #614ad3;
       img {
-        content: var(--nav-icon-reverse);
+        // content: var(--nav-icon-reverse);
+        filter: invert(1);
       }
     }
   }
