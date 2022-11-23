@@ -208,16 +208,6 @@
   </div>
 </template>
 <style lang="scss" scoped>
-*,
-html,
-body {
-  box-sizing: border-box;
-  font-size: 6.25%;
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-}
-
 // utils
 .opacity-50 {
   opacity: 0.5;
@@ -230,6 +220,9 @@ body {
   border-radius: 40px;
   padding-top: 60px;
   padding-bottom: 40px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
   font-size: 16rem;
   color: #ffffff;
 }
@@ -240,7 +233,7 @@ header {
   width: 285px;
   margin: 0 auto;
   font-size: 17rem;
-  line-height: 20rem;
+  line-height: 20px;
   letter-spacing: 1px;
   text-transform: uppercase;
 }
@@ -255,7 +248,7 @@ header {
   &__title {
     font-weight: 400;
     font-size: 13rem;
-    line-height: 15rem;
+    line-height: 15px;
     letter-spacing: 1px;
     text-transform: uppercase;
   }
@@ -263,7 +256,7 @@ header {
     margin-top: 5px;
     font-weight: 400;
     font-size: 37rem;
-    line-height: 43rem;
+    line-height: 43px;
     text-transform: uppercase;
   }
 
@@ -285,7 +278,7 @@ header {
     margin-top: 7px;
     font-weight: 400;
     font-size: 13rem;
-    line-height: 15rem;
+    line-height: 15px;
     letter-spacing: 1px;
     text-transform: uppercase;
   }
@@ -295,7 +288,7 @@ header {
     margin-top: 5px;
     font-weight: 400;
     font-size: 37rem;
-    line-height: 43rem;
+    line-height: 43px;
     text-transform: uppercase;
   }
   &__compare {
@@ -359,7 +352,7 @@ header {
     position: absolute;
     bottom: -25px;
     font-size: 13rem;
-    line-height: 15rem;
+    line-height: 15px;
     letter-spacing: 1px;
     text-transform: uppercase;
   }

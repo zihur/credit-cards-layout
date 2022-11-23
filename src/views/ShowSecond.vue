@@ -82,12 +82,6 @@
   </div>
 </template>
 <style lang="scss" scoped>
-*,
-html,
-body {
-  box-sizing: border-box;
-  font-size: 6.25%;
-}
 .wrapper {
   width: 375px;
   margin: 0 auto;
@@ -105,7 +99,7 @@ body {
   font-style: normal;
   font-weight: 500;
   font-size: 17rem;
-  line-height: 20rem;
+  line-height: 20px;
   letter-spacing: 1px;
   text-transform: uppercase;
 }
@@ -184,7 +178,7 @@ body {
     font-style: normal;
     font-weight: 500;
     font-size: 12rem;
-    line-height: 13rem;
+    line-height: 13px;
     letter-spacing: 1px;
     text-transform: uppercase;
   }
@@ -224,7 +218,7 @@ body {
     font-style: normal;
     font-weight: 400;
     font-size: 13rem;
-    line-height: 15rem;
+    line-height: 15px;
     letter-spacing: 1px;
     text-transform: uppercase;
   }
@@ -260,7 +254,7 @@ body {
     border-radius: 50%;
     border: var(--stroke-width) solid rgba(203, 204, 196, 0.4);
     font-size: 19rem;
-    line-height: 22rem;
+    line-height: 22px;
     &::before {
       content: "";
       position: absolute;
@@ -305,7 +299,7 @@ body {
 
   &__name {
     font-size: 11rem;
-    line-height: 13rem;
+    line-height: 13px;
     letter-spacing: 1px;
   }
 }

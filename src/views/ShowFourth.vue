@@ -135,24 +135,6 @@
   </div>
 </template>
 <style lang="scss" scoped>
-html {
-  box-sizing: border-box;
-  font-size: 6.25%;
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-}
-
-*,
-*:before,
-*:after {
-  box-sizing: inherit;
-}
-
-body {
-  font-size: 16rem;
-}
-
 .wrapper {
   width: 375px;
   margin: 0 auto;
@@ -160,6 +142,9 @@ body {
   border-radius: 40px;
   padding-bottom: 40px;
   color: #2f333c;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
   > img {
     display: block;
     width: 278px;
@@ -172,14 +157,14 @@ body {
   margin: 35px auto 16px 45px;
   &__title {
     font-size: 13rem;
-    line-height: 15rem;
+    line-height: 15px;
     text-transform: uppercase;
   }
   &__amount {
     margin-top: 5px;
     margin-bottom: 31px;
     font-size: 37rem;
-    line-height: 43rem;
+    line-height: 43px;
     text-transform: uppercase;
   }
 }
@@ -253,7 +238,7 @@ body {
   }
   &__name {
     font-size: 14rem;
-    line-height: 16rem;
+    line-height: 16px;
     text-transform: capitalize;
   }
   &__category {
@@ -270,7 +255,7 @@ body {
   &__cost {
     font-weight: 700;
     font-size: 16rem;
-    line-height: 19rem;
+    line-height: 19px;
     text-transform: uppercase;
   }
   &__icon {

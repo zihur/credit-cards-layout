@@ -8,5 +8,7 @@ const route = useRoute();
 <router-view />
 </template>
 
-<style>
+<style src="./assets/css/reset.css">
+</style>
+<style src="./assets/css/base.css">
 </style>

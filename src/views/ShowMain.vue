@@ -127,7 +127,7 @@ onMounted(() => {
 </template>
 
 <style lang="scss" scoped>
-* {
+:root {
   --spent-percent: 40%;
   --card-slide-height: 270px;
   --nav-icon-reverse: url("/src/assets/images/nav-icon-01-reverse.svg");
